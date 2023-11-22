@@ -1,1 +1,1 @@
-"# jankoy.xyz" 
+# jankoy.xyz
