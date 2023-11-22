@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(55, 55, 55);
+  }
+  
+  div {
+   background-color: rgb(125, 125, 125);
+  }
+  
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(81, 0, 128);
+    padding: 10px;
+  }
