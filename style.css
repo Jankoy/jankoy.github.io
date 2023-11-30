@@ -13,6 +13,7 @@ div {
   padding: 10px;
 }
 
-.background {
-  fill: url("add-butterfinger-to-orlando.png");
+.fill_parent {
+  width: max-content;
+  height: max-content;
 }
