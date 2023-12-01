@@ -1,9 +1,11 @@
 body {
+  display: block;
   margin: auto;
-  background-color: rgb(55, 55, 55);
+  background-image: url('497262.jpg');
   }
   
 div {
+  display: block;
   margin: auto;
   background-color: rgb(125, 125, 125);
 }
@@ -16,6 +18,7 @@ div {
 }
 
 .border {
+  display: block;
   border: 3px solid rgb(81, 0, 128);
   padding: 10px;
 }
