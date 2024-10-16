@@ -1,5 +1,5 @@
 let count = 0;
-if (documeny.cookie === "")
+if (document.cookie === "")
     document.cookie = "count=0";
 else
     count = +document.cookie.split("=")[1];
