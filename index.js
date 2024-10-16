@@ -1,4 +1,4 @@
-let count = 0;
+let count = +document.cookie.split("=")[1];
 
 const r = router({
     "/": () => div(
@@ -9,6 +9,7 @@ const r = router({
         div("Counter: " + count),
         button("Click me to increase the counter").onclick$(function () {
             count += 1;
+            document.cookie = "count=" + count;
             r.refresh();
         })
     ),
