@@ -11,7 +11,7 @@ const r = router({
         div(a("My projects").att$("href", "#/projects")),
         br(),
         div("Counter: " + count),
-        button("Click me to increase the counter").onclick$(function () {
+        button("Click me to increase the counter").att$("class", "plausible-event-name=Counter+Click").onclick$(function () {
             count += 1;
             document.cookie = "count=" + count;
             r.refresh();
