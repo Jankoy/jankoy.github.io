@@ -1,8 +1,9 @@
 let count = 0;
-if (document.cookie === "")
+let splitCookie = document.cookie.split("=");
+if (splitCookie[0] !== "count" || !Number.isInteger(+splitCookie[1]))
     document.cookie = "count=0";
 else
-    count = +document.cookie.split("=")[1];
+    count = +splitCookie[1];
 
 const r = router({
     "/": () => div(
